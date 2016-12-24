@@ -11,7 +11,7 @@ const nani = require('nani').init("niisama1-uvake", "llbgsBx3inTdyGizCPMgExBVmQ5
 const Autolinker = require('autolinker');
 
 // misc
-const serverIp = '167.114.155.242';
+const serverIp = '34.195.48.59';
 const formatHex = '#566'; //hex code for the formatting of the command
 const ADVERTISEMENT_COST = 10; // how much does /advertise cost to use?
 const MAX_REASON_LENGTH = 300; // pban command usage
@@ -185,7 +185,7 @@ exports.commands = {
 				}
 			}
 			connection.popup('|html|' +
-				'<h3>Gold Authority List</h3>' +
+				'<h3>Hidden City Authority List</h3>' +
 				'<b><u>~Administrator' + Gold.pluralFormat(staff['admins'].length) + ' (' + staff['admins'].length + ')</u></b>:<br />' + staff['admins'].join(', ') +
 				'<br /><b><u>&Leader' + Gold.pluralFormat(staff['leaders'].length) + ' (' + staff['leaders'].length + ')</u></b>:<br />' + staff['leaders'].join(', ') +
 				'<br /><b><u>@Moderators (' + staff['mods'].length + ')</u></b>:<br />' + staff['mods'].join(', ') +
